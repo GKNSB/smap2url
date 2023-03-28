@@ -1,7 +1,7 @@
 #!/usr/bin/env python
+
 import re
-import tqdm
-from argparse import ArgumentParser, FileType
+from argparse import ArgumentParser
 
 portsHTTP = ['80', '8080']
 portsHTTPS = ['443', '8443']
